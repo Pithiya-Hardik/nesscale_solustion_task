@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-30 18:16:05.275037",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "document_type",
+  "section_break_bfwi",
+  "approval_steps"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Link",
+   "label": "Document Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "section_break_bfwi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approval_steps",
+   "fieldtype": "Table",
+   "label": "Approval Steps",
+   "options": "Approval Step"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-30 18:18:14.024716",
+ "modified_by": "Administrator",
+ "module": "Nesscale Solustion",
+ "name": "Approval Workflow Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

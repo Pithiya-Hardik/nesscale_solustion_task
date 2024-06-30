@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-30 18:09:10.616217",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "approver",
+  "condition",
+  "column_break_qukz",
+  "sequence"
+ ],
+ "fields": [
+  {
+   "fieldname": "approver",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "condition",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Condition"
+  },
+  {
+   "fieldname": "column_break_qukz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sequence",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Sequence"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-30 18:17:59.518092",
+ "modified_by": "Administrator",
+ "module": "Nesscale Solustion",
+ "name": "Approval Step",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

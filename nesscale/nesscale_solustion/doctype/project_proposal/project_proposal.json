@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:proposal_id",
+ "creation": "2024-06-30 18:42:35.699990",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_x23t",
+  "proposal_id",
+  "project_name",
+  "amended_from",
+  "column_break_kyig",
+  "company_name",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_x23t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project Proposal",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "proposal_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Proposal ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_kyig",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-06-30 18:56:23.032511",
+ "modified_by": "Administrator",
+ "module": "Nesscale Solustion",
+ "name": "Project Proposal",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
